@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-header {
+    background-color: #66afe9;
+}
+
+.imgsize {
+    width: 200px;
+    height: 200px;
+}
