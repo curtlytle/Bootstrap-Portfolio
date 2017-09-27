@@ -1,12 +1,32 @@
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-header {
+.myNameHeader {
     background-color: #66afe9;
+    text-align: center;
+    color: white;
 }
 
 .imgsize {
     width: 200px;
     height: 200px;
+}
+
+footer {
+    background: #999999;
+    text-align: center;
+    padding: 20px;
+    /*margin-top: 5px;*/
+    border-top: thick solid #6ea3da;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: x-small;
+
+    width: 100%;
+}
+
+footer:after {
+    content: "\00a9 Copyright 2017 Curtis Lytle";
 }
