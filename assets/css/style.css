@@ -29,6 +29,35 @@ body {
     padding-bottom: 10px;
 }
 
+.apclass {
+    margin: 15px;
+    float: left;
+    position: relative;
+}
+
+.dpclass {
+    float: none;
+    background: #6ea3da;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 190px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.pics:hover {
+    opacity: 0.5;
+}
+
+#portlabel1 {
+    float: left;
+    position: relative;
+    bottom: 0;
+    z-index: 2;
+}
+
 .footer {
     background: #999999;
     text-align: center;
@@ -44,4 +73,10 @@ body {
 
 .footer:after {
     content: "\00a9 Copyright 2017 Curtis Lytle";
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
