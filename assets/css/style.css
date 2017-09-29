@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/brickwall.png");
 }
 
 .myNameHeader {
@@ -9,24 +10,38 @@ body {
     color: white;
 }
 
-.imgsize {
-    width: 200px;
-    height: 200px;
+.mainsection {
+    background: #fefff7;
+    margin-bottom: 20px;
+    border: 1px solid grey;
 }
 
-footer {
+#imgdiv {
+    float: left;
+    padding-right: 10px;
+}
+
+.panel {
+    text-align: center;
+}
+
+#contactform {
+    padding-bottom: 10px;
+}
+
+.footer {
     background: #999999;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     /*margin-top: 5px;*/
-    border-top: thick solid #6ea3da;
+    /*border-top: thick solid #6ea3da;*/
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: x-small;
 
-    width: 100%;
+    /*width: 100%;*/
 }
 
-footer:after {
+.footer:after {
     content: "\00a9 Copyright 2017 Curtis Lytle";
 }
