@@ -80,3 +80,9 @@ body {
     display: block;
     clear: both;
 }
+
+@media screen and (max-width: 640px) {
+    #imgdiv {
+        float: none;
+    }
+}
