@@ -45,7 +45,17 @@ body {
     padding: 10px;
     text-align: center;
 }
-
+.dpclass2 {
+    float: none;
+    background: #6ea3da;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 190px;
+    padding: 10px;
+    text-align: center;
+    font-size: x-small;
+}
 
 .pics:hover {
     opacity: 0.5;
